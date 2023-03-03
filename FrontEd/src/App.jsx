@@ -130,7 +130,7 @@ function App() {
               <td>{cont.temporadas}</td>
               <td>{cont.status}</td>
               <td>
-                <Button onClick={() => deleteContent(cont.id)} variant='danger'>
+                <Button className='exclu1' onClick={() => deleteContent(cont.id)} variant='danger'>
                   Excluir
                 </Button>
                 <Button
