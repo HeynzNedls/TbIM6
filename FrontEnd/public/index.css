@@ -1,0 +1,28 @@
+html, body{
+  width: auto;
+  height: auto;
+  background-image: url(./planodefundo.png);
+}
+
+#root {
+   margin-top: 100px;
+
+}
+#conteinera{
+  background: none;
+}
+
+html,body .mb-2{
+  color: white;
+  background-color: blue;
+  border-color: cyan;
+}
+html,body .mb-2:hover{
+  color: blue;
+  background-color: white;
+}
+
+html, body, .tabela {
+  color: black;
+  border-color: none;
+}
