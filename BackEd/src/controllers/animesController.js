@@ -4,8 +4,8 @@ class animeController {
   static rotas(app){
     app.get('/anime', animeController.listar)
     app.post('/anime', animeController.inserir)
-    app.delete('/anime/id/:id', animeController.deletar)
-    app.put('/anime/id/:id', animeController.atualizar)
+    app.delete('/anime/:id', animeController.deletar)
+    app.put('/anime/:id', animeController.atualizar)
   }
 
   static async listar(req, res){
