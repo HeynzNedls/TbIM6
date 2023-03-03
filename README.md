@@ -1,4 +1,16 @@
-# TbIM6
+# Trabalho Individual M6
+ # Precisamos montar um MVP para a empresa testar o seu novo app (MVP é a
+sigla em inglês para Minimum Viable Product – ou Produto Mínimo Viável).
+Para isso vamos construir um app (front e back-end) que vai implementar as
+funcionalidades básicas do CRUD.
+
+ # Ferramentas utilizadas
+• Visual Studio Code;
+• Node.js;
+• Express;
+• SQLite;
+• React; e
+• Bootstrap.
  
  # Dependencias 
  (instale elas em cada pasta BackEnd e FrontEnd)
