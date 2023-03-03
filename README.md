@@ -28,3 +28,7 @@ funcionalidades básicas do CRUD.
 • npm install sqlite3 (instale a dependência) </br>
 • npm start (excutar back end) </br> 
 • npm run dev (executar o front end) </br>
+
+# Feito 
+
+https://github.com/HeynzNedls/TbIM6/blob/d03e8e6944eed601f2c93cdf3aff615ec30a609a/M6TbIn1.JPG
