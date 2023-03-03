@@ -9,23 +9,23 @@ funcionalidades básicas do CRUD.
 
  # Ferramentas utilizadas
  
-• Visual Studio Code;
-• Node.js;
-• Express;
-• SQLite;
-• React; e
-• Bootstrap.
+Visual Studio Code; </br>
+Node.js</br>
+Express </br>
+SQLite </br>
+React </br>
+Bootstrap
  
  # Dependencias Utilizadas
 
-• npm init -y </br>
-• npm install express </br>
-• npm install -g nodemon </br>
-• npm install --save-dev nodemon </br>
-• npm install </br>
-• npm install </br>
-• npm start </br> 
-• npm run dev </br>
+npm init -y </br>
+npm install express </br>
+npm install -g nodemon </br>
+npm install --save-dev nodemon </br>
+npm install </br>
+npm install </br>
+npm start </br> 
+npm run dev </br>
 
 # Feito 
 
