@@ -31,4 +31,4 @@ funcionalidades básicas do CRUD.
 
 # Feito 
 
-<img https://github.com/HeynzNedls/TbIM6/blob/d03e8e6944eed601f2c93cdf3aff615ec30a609a/M6TbIn1.JPG />
+![](https://github.com/HeynzNedls/TbIM6/blob/d03e8e6944eed601f2c93cdf3aff615ec30a609a/M6TbIn1.JPG)
