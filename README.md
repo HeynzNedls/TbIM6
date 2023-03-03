@@ -1,12 +1,34 @@
-# TbIM6
+ # Trabalho Individual M6
+
+ # Contexto
  
- Dependencias (instale elas em cada pasta BackEnd e FrontEnd)
+Precisamos montar um MVP para a empresa testar o seu novo app (MVP é a
+sigla em inglês para Minimum Viable Product – ou Produto Mínimo Viável).
+Para isso vamos construir um app (front e back-end) que vai implementar as
+funcionalidades básicas do CRUD.
+
+ # Ferramentas utilizadas
  
-• npm init -y (inicia o projeto na pasta desejada) </br>
-• npm install express (instalação de dependência) </br>
-• npm install -g nodemon (instalação de dependência) </br>
-• npm install --save-dev nodemon (instalação de dependência) </br>
-• npm install cors (instalação de dependência) </br>
-• npm install sqlite3 (instalação de dependência) </br>
-• npm start (excutar o projeto) </br> 
-• npm run dev (executar o projeto como desenvolvedor) </br>
+• Visual Studio Code;
+• Node.js;
+• Express;
+• SQLite;
+• React; e
+• Bootstrap.
+ 
+ # Dependencias 
+ 
+ (instale elas em cada pasta BackEnd e FrontEnd)
+ 
+• npm init -y (iniciana pasta) </br>
+• npm install express (instale a dependência) </br>
+• npm install -g nodemon (instale a dependência) </br>
+• npm install --save-dev nodemon (instale a dependência) </br>
+• npm install cors (instale a dependência) </br>
+• npm install sqlite3 (instale a dependência) </br>
+• npm start (excutar back end) </br> 
+• npm run dev (executar o front end) </br>
+
+# Feito 
+
+![](https://github.com/HeynzNedls/TbIM6/blob/d03e8e6944eed601f2c93cdf3aff615ec30a609a/M6TbIn1.JPG)
