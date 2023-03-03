@@ -1,6 +1,6 @@
 # TbIM6
  
- Dependencias
+ Dependencias (instale elas em cada pasta BackEnd e FrontEnd)
  
 • npm init -y (inicia o projeto na pasta desejada) </br>
 • npm install express (instalação de dependência) </br>
