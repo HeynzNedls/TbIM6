@@ -112,7 +112,7 @@ function App() {
         variant='primary'>
         Adicionar
       </Button>
-      <Table striped bordered hover>
+      <Table>
         <thead>
           <tr>
             <th>Anime</th>
@@ -139,7 +139,7 @@ function App() {
                     setSelectedContent(cont)
                   }}
                   variant='warning'
-                  className='m-1'>
+                  className='atualz1'>
                   Atualizar 
                 </Button>
               </td>

@@ -6,7 +6,10 @@ html, body{
 
 #root {
    margin-top: 100px;
-
+   color: black;
+   font-size: 20px;
+   font-style: oblique;
+   font-weight: 600; 
 }
 #conteinera{
   background: none;
@@ -19,10 +22,28 @@ html,body .mb-2{
 }
 html,body .mb-2:hover{
   color: blue;
-  background-color: white;
+  background-color: cyan;
 }
 
-html, body, .tabela {
-  color: black;
-  border-color: none;
+html, body .exclu1{
+  background-color: red;
+  border-color: white;
+}
+html, body .exclu1:hover{
+ background-color: yellow;
+ color: black;
+ border-color: white;
+}
+
+html,body .atualz1{
+  background-color: blueviolet;
+  border-color: aqua;
+  color: aqua;
+  letter-spacing: 6px;
+  margin: 5px;
+}
+html,body .atualz1:hover{
+  color: blueviolet;
+  background-color: aqua;
+  border-color: white;
 }
