@@ -30,4 +30,4 @@ npm run dev </br>
 # Feito 
 
 ![](https://github.com/HeynzNedls/TbIM6/blob/58ac040f717220073e3f624cc95b1274dd9b3f8e/finalyf.JPG) 
-![](https://github.com/HeynzNedls/TbIM6/blob/a4c0dc56e839884c9a242fb677975e569950d14d/back.JPG)
+![](https://github.com/HeynzNedls/TbIM6/blob/5fcacbaab41ae54052a7c4da9bca7a68eae10115/finalyb.JPG)
