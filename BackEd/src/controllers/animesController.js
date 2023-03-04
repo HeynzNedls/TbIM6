@@ -1,28 +1,28 @@
-const AnimesDAO = require('../DAO/AnimesDAO.js')
- 
-class animeController {
+const ContentsDAO = require('../DAO/AnimesDAO.js')
+
+class contentsController {
   static rotas(app){
-    app.get('/anime', animeController.listar)
-    app.post('/anime', animeController.inserir)
-    app.delete('/anime/:id', animeController.deletar)
-    app.put('/anime/:id', animeController.atualizar)
+    app.get('/anime', contentsController.listar)
+    app.post('/anime', contentsController.inserir)
+    app.delete('/anime/id', contentsController.deletar)
+    app.put('/anime/id', contentsController.atualizar)
   }
 
   static async listar(req, res){
-    const animes = await AnimesDAO.listar()
+    const conteudos = await ContentsDAO.listar()
 
-    res.status(200).send(animes)
+    res.status(200).send(conteudos)
   }
 
   static async inserir(req, res){
-    const animes = {
+    const conteudo = {
       titulo: req.body.titulo,
       episodios: req.body.episodios,
       temporadas: req.body.temporadas,
       status: req.body.status
     }
 
-    const result = await AnimesDAO.inserir(animes)
+    const result = await ContentsDAO.inserir(conteudo)
 
     if(result.erro) {
       res.status(500).send(result)
@@ -32,31 +32,31 @@ class animeController {
   }
 
   static async deletar(req, res){
-    const animes = await AnimesDAO.deletar(req.params.id)
+    const conteudo = await ContentsDAO.deletar(req.params.id)
 
-    if(animes.erro){
+    if(conteudo.erro){
         res.status(500).send('Erro ao tentar deletar anime')
     }
 
-    res.status(204).send({mensagem: 'Anime removido com sucesso'})
+    res.status(204).send({mensagem: 'Anime removido sucesso'})
   }
 
   static async atualizar(req, res){
-    const animes = {
+    const conteudo = {
       titulo: req.body.titulo,
       episodios: req.body.episodios,
       temporadas: req.body.temporadas,
       status: req.body.status
     }
 
-    const result = await AnimesDAO.atualizar(req.params.id, animes)
+    const result = await ContentsDAO.atualizar(req.params.id, conteudo)
 
     if(result.erro){
-        res.status(500).send('Erro ao tentar atualizar o anime')
+        res.status(500).send('Erro ao tentar atualizar anime')
     }
 
-    res.status(201).send({mensagem: 'Anime alterado com sucesso'})
+    res.status(201).send({mensagem: 'Anime atualizado com sucesso'})
   }
 }
 
-module.exports = animeController
+module.exports = contentsController
