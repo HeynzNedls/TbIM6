@@ -23,7 +23,6 @@ npm install express </br>
 npm install -g nodemon </br>
 npm install --save-dev nodemon </br>
 npm install </br>
-npm install </br>
 npm start </br> 
 npm run dev </br>
 
